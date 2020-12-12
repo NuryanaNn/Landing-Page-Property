@@ -1,0 +1,303 @@
+/*Navbar*/
+.navbar{
+	z-index: 1;
+}
+
+/*Jumbotron*/
+.jumbotron{
+	background-image:url(img/img2.jpg);
+	background-size: cover;
+	height: 540px;
+	text-align: center;
+}
+
+.display-4{
+    margin-top: 200px;
+    color: white;
+    font-size: 30px;
+}
+
+.search_bar{
+    margin-left: -20px;
+    margin-top: -50px;
+    width: 320px;  
+}
+
+.intro{
+    background-color: orange;
+    margin-top: -30px;
+    height: 950px;
+}
+
+.intro h1{
+    margin-top: 60px;
+    text-align: center;
+}
+.intro p{
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.intro img{
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 285px;
+}
+
+.btn_about{
+    text-align: center;
+}
+
+.card{
+    margin-top: 50px;
+    border: none;
+}
+
+.gallery{
+    background-color: lightgrey;
+    height: 2700px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.gallery h2{
+    padding-top: 30px;
+}
+
+.cost{
+    margin-top: -100px;
+    margin-left: -15px;
+}
+
+.image{
+    width: 270px;
+    height: 400px;
+    margin-left: -15px;
+}
+
+.gallery_pertama{
+    margin-left: 80px;
+    margin-top:20px;
+    margin-left: -20px;
+
+
+}
+.gallery_pertama img{
+    width: 290px!important;
+    height: 300px;
+}
+
+/* Bagian Kedua */
+.galls{
+    margin-left: -30px;
+}
+
+.agen{
+    color: white;
+    background-color: black;
+    margin-top: -110px;
+    height: 200px;
+    text-align: center;
+}
+
+.g2{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.testimoni{
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.g3{
+    margin-left: 80px;
+    margin-top: -70px;
+}
+
+.g4{
+    margin-top: -110px;
+}
+
+/* Testimonial */
+.testimonial{
+    margin-top: 70px;
+}
+
+.testimonial img{
+    border-radius: 30px;
+}
+
+/* Our Partner */
+.partner{
+    margin-top: 40px;
+}
+
+.image_partner{
+    margin-top: 40px;
+}
+
+.meet {
+    background-color: orange;
+}
+
+.meet h1, p{
+    margin-top: 40px;
+}
+
+.meet button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.roomah{
+    background-color: black;
+    height: 600px;
+    margin-top: -150px;
+}
+
+.footer img{
+    margin-top: 200px;
+}
+
+.email{
+    margin-top: 10px;
+    color: white;
+}
+
+.contact{
+    margin-top: -9px;
+    color: white;
+}
+
+.id{
+    color : white;
+}
+
+.identitas{
+    margin-top: -150px;
+    color: white;
+    text-align: center;
+}
+
+
+/* Deskotop Version */
+@media (min-width:992px){
+    /* Navbar */
+    .navbar-brand, .nav-link{
+        color: white !important;
+        
+    }
+
+    /* Jumbotron */
+    .jumbotron{
+        background-image: url(img/img2.jpg);
+        height: 500px;
+        margin-top: -120px;
+        background-size: cover;  
+    }
+
+    /* Search Location */
+    .search_bar{
+        margin-left: 350px;
+        margin-top: -50px;
+        width: 1100px;  
+    }
+
+    /* Introduction */
+    .intro{
+        background-color: orange;
+        margin-top: -30px;
+        height: 540px;
+    }
+    
+    .intro h1{
+        margin-top: 60px;
+        text-align: left;
+    }
+    .intro p{
+        text-align: justify;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .btn_about{
+        text-align: left;
+    }
+
+    .intro img{
+        margin-top: 120px;
+        margin-left: 60px;
+    }
+
+    /* Gallery */
+    .gallery{
+        background-color: lightgrey;
+        height: 1350px;
+        margin-top: 40px;
+        text-align: left;
+    }
+    .image{
+        width: 700px;
+        height: 550px;
+        
+    }
+
+    .cost{
+        margin-top: -400px;
+        margin-left: 20px;
+    }
+
+    .gallery_pertama{
+        margin-left: 105px;
+        margin-top:-5px;
+    
+    }
+    .gallery_pertama img{
+        width: 290px!important;
+        height: 300px;
+    }
+
+    .galls{
+        margin-left: 10px;
+    }
+
+    .agen{
+        color: white;
+        background-color: black;
+        margin-top: -52px;
+        margin-left: 250px;
+        height: 100px;
+        position: absolute;
+        text-align: left;
+    }
+
+    .agen h1, button{
+        padding-top: 25px;
+        padding-left: 10px;
+    }
+
+    .tombol{
+        margin-right: 10px;
+    }
+
+    .g2{
+        margin-top: 60px;
+        margin-left: 40px;
+    }
+
+    .g3{
+        margin-left: 2px;
+        margin-top: 2px;
+    }
+    
+    .g4{
+        margin-top: -110px;
+    }
+
+    .identitas{
+        margin-top: 150px;
+        color: white;
+        text-align: left;
+    }
+}
